@@ -45,7 +45,7 @@ export const personalInfo: PersonalInfo = {
   summary:
     "Fullstack Developer with 3+ years of experience building scalable web applications using Next.js, React, TypeScript, Node.js, Express, and PostgreSQL (with Prisma ORM). Expert in secure JWT authentication, role-based access control, API integration, and owning production systems in fintech/e-commerce environments. Strong ownership mindset, proven debugging skills, and quick adaptation to scaling startups — currently at Motopay (hybrid).",
   email: "adesokanpelumi14@gmail.com",
-  cvLink: "/path-to-your-cv.pdf", // UPDATE with actual CV link
+  cvLink: "https://drive.google.com/file/d/1CkNGNutpJBPAO4gi1zC47WGK45nec-Dh/view?usp=sharing",
   social: {
     github: "https://github.com/Pelumiii1",
     linkedin: "https://www.linkedin.com/in/adesokanoluwapelumi/",
