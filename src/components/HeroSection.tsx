@@ -38,9 +38,9 @@ const HeroSection = () => {
               <div className="absolute inset-8 rounded-full border border-black/5" />
             </div>
             <img
-              src="/avatar.svg"
-              alt={`${personalInfo.name} avatar`}
-              className="relative h-24 w-24 md:h-28 md:w-28 rounded-full border border-black/10 bg-white shadow-lg"
+              src="/bitmoji.png"
+              alt={`${personalInfo.name} bitmoji`}
+              className="relative h-24 w-24 md:h-28 md:w-28 rounded-full border border-black/10 bg-white shadow-lg object-cover"
             />
           </div>
         </div>
