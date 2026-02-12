@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import { personalInfo } from "../mock";
 import { Button } from "./ui/button";
 
 const Header = () => {
@@ -59,7 +60,7 @@ const Header = () => {
                 {item.label}
               </button>
             ))}
-            <a href="/path-to-your-cv.pdf" download className="ml-4">
+            <a href={personalInfo.cvLink} className="ml-4">
               <Button
                 variant="outline"
                 className="border-black text-black hover:bg-black hover:text-white transition-all duration-300"
@@ -89,7 +90,7 @@ const Header = () => {
                   {item.label}
                 </button>
               ))}
-              <a href="/path-to-your-cv.pdf" download className="mt-2">
+              <a href={personalInfo.cvLink} className="mt-2">
                 <Button
                   variant="outline"
                   className="w-full border-black text-black hover:bg-black hover:text-white transition-all duration-300"
